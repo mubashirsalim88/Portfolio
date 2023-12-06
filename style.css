@@ -28,7 +28,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  width: 1260px;
+  width: 100vw;
   margin: -10 auto;
   text-align: center;
   background: rgb(0, 0, 0);
@@ -61,7 +61,6 @@ nav {
 
 .navbar {
   display: flex;
-
 }
 
 .navbar div {
@@ -416,4 +415,12 @@ footer p {
   color: white;
 }
 
+/* CSS for mobile menu */
+.menu-toggle {
+  display: block; /* Show the menu button */
+}
+
+.navbar {
+  display: none; /* Hide the navbar links by default */
+}
 

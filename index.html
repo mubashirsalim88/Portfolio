@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
   <link href="resume.pdf" rel="stylesheet">
   <title>Mubashir Salim - Data Science</title>
 </head>
@@ -13,7 +15,12 @@
 <body>
   <header>
     <nav>
-      <div class="logo"><img src="images/ms.png" alt="your logo" /></div>
+      <div class="logo">
+        <img src="images/ms.png" alt="your logo" />
+      </div>
+      <button class="menu-toggle">
+        <i class="fas fa-bars"></i> <!-- You might need to add Font Awesome for the bars icon -->
+      </button>
       <div class="navbar">
         <div><a href="#home">Home</a></div>
         <div><a href="#skills">Skills</a></div>
@@ -40,10 +47,9 @@
         analysis, machine learning, and data visualization.
       </p>
       <div class="about-btn">
-        <a href="resume.pdf"
-          target="_blank"><button class="btn-secondary">Download CV</button></a>
+        <a href="resume.pdf" target="_blank"><button class="btn-secondary">Download CV</button></a>
       </div>
-      
+
     </div>
   </section>
 
@@ -141,10 +147,13 @@
     <div class="projects">
       <div class="project-item">
         <img src="images/internship.png" alt="project1" />
-        <div style="margin-left: 15px;"><h3> Internship Certification from Coincent</h3></div>
-        <div id="internship-button"  class="project-title">
+        <div style="margin-left: 15px;">
+          <h3> Internship Certification from Coincent</h3>
+        </div>
+        <div id="internship-button" class="project-title">
           <p>Data Science with Python</p>
-          <p><a href="Data Science Internship.pdf"><button class="btn-secondary">View Certificate</button></a></p>
+          <p><a href="Data Science Internship.pdf" target="_blank"><button class="btn-secondary">View
+                Certificate</button></a></p>
         </div>
       </div>
   </section>
@@ -152,35 +161,36 @@
   <section class="cards contact" id="contact">
     <h2 class="title">Contact</h2>
     <div class="content">
-        <div class="card">
-            <div class="icon">
-                <i class="fas fa-phone"></i>
-            </div>
-            <div class="info">
-                <h3>Phone</h3>
-                <p>+91-7018840330</p>
-            </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fas fa-phone"></i>
         </div>
-        <div class="card">
-            <div class="icon">
-                <i class="fas fa-envelope"></i>
-            </div>
-            <div class="info">
-                <h3>Email</h3>
-                <p>mubashirsalim88@gmail.com</p>
-            </div>
+        <div class="info">
+          <h3>Phone</h3>
+          <p>+91-7018840330</p>
         </div>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="info">
+          <h3>Email</h3>
+          <p>mubashirsalim88@gmail.com</p>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
   <footer class="footer">
     <p class="footer-title">Copyrights @ <span>Mubashir Salim</span></p>
     <div class="social-icons">
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/mubashir-salim-92379a230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/_mu.ba.sh.ir_/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/mubashir.salim.79?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
     </div>
-</footer>
+  </footer>
   <script src="script.js"></script>
 </body>
 
