@@ -1,3 +1,6 @@
 # Portfolio
-Mubashir salim
-MSCDS B 23122124
+Name - Mubashir salim
+email - mubashir.salim@msds.christuniversity.in  
+Reg_No - 23122124
+Class - 2-MSCDS-B
+
